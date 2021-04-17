@@ -65,14 +65,20 @@ node index.js
 
 The first question prompt will appear if the launch is successful. Read each question carefully and enter you answers for each prompt.
 
+![README File Generator launch](./assets/images/README_Generator_prompt1.png)
 
+The next prompt will display after you enter a reponse to the previous question.
 
+![README File Generator prompts](./assets/images/README_Generator_prompt1.png)
 
+When the README file has been successfully created, a prompt appears noting the success.
+
+![README File Generator success](./assets/images/README_Generator_prompt3.png)
 
 You may also watch a brief walk-through video explaining each step: [![screenshot of the README File Generator app](http://img.youtube.com/vi/XDMwxvk2HXE/0.jpg)](http://www.youtube.com/watch?v=XDMwxvk2HXE "README File Generator")
 
-
 ---
+
 ## License:<br>
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)<br>This software is licensed under an MIT license:<br><br>Copyright © 2021 Arcangyl Studios<br><br>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br>THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br>
