@@ -65,7 +65,11 @@ node index.js
 
 The first question prompt will appear if the launch is successful. Read each question carefully and enter you answers for each prompt.
 
-You may also watch a brief walk-through video explaining each step [here](https://youtu.be/XDMwxvk2HXE).
+
+
+
+
+You may also watch a brief walk-through video explaining each step: [![screenshot of the README File Generator app](http://img.youtube.com/vi/XDMwxvk2HXE/0.jpg)](http://www.youtube.com/watch?v=XDMwxvk2HXE "README File Generator")
 
 
 ---
