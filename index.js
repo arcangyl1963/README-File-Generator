@@ -78,10 +78,11 @@ const questions = [
     {
         type: 'list',
         message: 'Select a license for your project:',
-        choices: ['GPL', 'LGPL', 'MIT', 'COPYLEFT'],
+        choices: ['GPL', 'MIT', 'MPLv2'],
         name: 'license'
     },
 ];
+//Function to write the to file
 function writeToFile(filename, data) {
     fs.writeFile(filename, data, err => {
         if (err) {
@@ -92,7 +93,7 @@ function writeToFile(filename, data) {
 }
 
 const asyncWF = util.promisify(writeToFile);
-// Primary function to invoke Inquirer prompt questions, create the markdown copy, and write to file.
+// Async function to invoke the Inquirer prompt questions, retrieve some user info from GitHub, create the markdown copy, and write to file all in the proper sequence
 async function init() {
     try {
         const userEntries = await inquirer.prompt(questions);
@@ -103,7 +104,8 @@ async function init() {
         console.log('Generating README.md now.');
         const markdown = generateMarkdown(userEntries, userInfo);
         console.log(markdown);
-        await asyncWF('myREADME.md', markdown);
+        const rmFileName = userEntries.title.toLowerCase().split(' ').join('') + "_README.md";
+        await asyncWF(rmFileName, markdown);
     } catch (error) {
         console.log(error);
     }
